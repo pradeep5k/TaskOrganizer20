@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/std_margin" android:orientation="horizontal"
+        android:background="@drawable/recycler_task_item_ui" >
+    <TextView
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_margin="@dimen/std_margin"
+            android:id="@+id/taskTitleTextView" android:layout_weight="1"/>
+    <ImageView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center" android:contentDescription="@string/task_status_indicator"
+            app:srcCompat="@drawable/ic_baseline_hourglass_empty_24px"
+            android:layout_margin="@dimen/std_margin" android:id="@+id/statusImageView" />
+</LinearLayout>
+
+
+
+
+

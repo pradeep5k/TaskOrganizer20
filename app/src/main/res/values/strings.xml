@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Task Organizer</string>
+    <string name="placeholder">Placeholder text</string>
+    <string name="select_task_instruction">Select a task to view details.</string>
+    <string name="status_label">Status:</string>
+    <string name="created_on_label">Created on:</string>
+    <string name="due_on_label">Due on:</string>
+    <string name="updated_on_label">Updated on:</string>
+    <string name="completed_on_label">Completed on:</string>
+    <string name="task_organizer">Task Organizer</string>
+    <string name="task_detail">Task Detail</string>
+    <string name="dash_dash">--</string>
+    <string name="task_status_indicator">Task status indicator</string>
+    <string name="task_editor">Task editor</string>
+    <string name="tbd">TBD</string>
+</resources>

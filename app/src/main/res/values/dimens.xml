@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_margin">8dp</dimen>
+    <dimen name="header_font_size">18sp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="std_padding">4dp</dimen>
+</resources>

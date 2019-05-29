@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/colorSelected"
+            android:layout_height="match_parent" android:layout_width="match_parent" tools:context=".ui.TaskDetailFragment">
+    <FrameLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:padding="@dimen/std_margin">
+        <ImageView
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_baseline_snooze_24px" android:layout_gravity="center"
+                android:id="@+id/snoozeImageView" android:contentDescription="@string/select_task_instruction"/>
+        <TableLayout
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:visibility="invisible" android:id="@+id/taskInfoGridLayout">
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:textStyle="bold" android:layout_width="0dp" android:layout_weight="1"
+                        android:layout_height="wrap_content" android:text="@string/select_task_instruction"
+                        android:textSize="@dimen/header_font_size" android:id="@+id/taskTitleTextView"/>
+            </TableRow>
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                        android:textStyle="italic|bold" android:id="@+id/taskNoteTextView"/>
+            </TableRow>
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.3" android:layout_height="wrap_content"
+                        android:text="@string/status_label"/>
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+                        android:text="@string/dash_dash" android:id="@+id/taskStatusTextView"/>
+            </TableRow>
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.3" android:layout_height="wrap_content"
+                        android:text="@string/created_on_label"/>
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+                        android:text="@string/dash_dash" android:id="@+id/taskCreatedOnTextView"/>
+            </TableRow>
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.3" android:layout_height="wrap_content"
+                        android:text="@string/due_on_label"/>
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+                        android:text="@string/dash_dash" android:id="@+id/taskDueOnTextView"/>
+            </TableRow>
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.3" android:layout_height="wrap_content"
+                        android:text="@string/updated_on_label"/>
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+                        android:text="@string/dash_dash" android:id="@+id/taskUpdatedOnTextView"/>
+            </TableRow>
+            <TableRow android:paddingBottom="@dimen/std_padding">
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.3" android:layout_height="wrap_content"
+                        android:text="@string/completed_on_label"/>
+                <TextView
+                        android:layout_width="0dp" android:layout_weight="0.7" android:layout_height="wrap_content"
+                        android:text="@string/dash_dash" android:id="@+id/taskCompletedOnTextView"/>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+</ScrollView>
+
+
+

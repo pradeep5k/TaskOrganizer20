@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.TaskLandingFragment"
+        android:baselineAligned="false">
+
+    <fragment
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_margin="@dimen/std_margin"
+            android:name="com.learnandroid.taskorganizer20.ui.TaskListFragment"
+            android:id="@+id/listFragment"/>
+    <fragment
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginVertical="@dimen/std_margin"
+            android:name="com.learnandroid.taskorganizer20.ui.TaskDetailFragment"
+            android:id="@+id/detailFragment"/>
+</LinearLayout>
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF008577</color>
+    <color name="colorPrimaryDark">#FF00574B</color>
+    <color name="colorAccent">#FFD81B60</color>
+    <color name="colorPressed">#FFCCCCCC</color>
+    <color name="colorSelected">#FFDDDDDD</color>
+    <color name="colorFocused">#FFCCCCCC</color>
+    <color name="need_action">#FFDAA400</color>
+    <color name="completed_action">#FF2D9A0E</color>
+    <color name="abandoned_action">#FFA70202</color>
+</resources>
